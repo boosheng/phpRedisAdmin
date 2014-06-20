@@ -129,7 +129,7 @@ if (($count_elements_page !== false) && in_array($type, array('hash', 'list', 's
 
 
 if (isset($pagination)) {
-  echo $pagination;
+  //echo $pagination;
 }
 
 
@@ -242,7 +242,7 @@ if ($type != 'string') { ?>
 <?php }
 
 if (isset($pagination)) {
-  echo $pagination;
+  //echo $pagination;
 }
 
 require 'includes/footer.inc.php';
